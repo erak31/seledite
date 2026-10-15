@@ -11,8 +11,8 @@ theme: /
             "Часы работы" -> /Часы работы
             "Оставить отзыв" -> /Отзыв о работе
         intent: /Статус заказа || onlyThisState = false, toState = "/Стату"
-        intent: /Часы работы || onlyThisState = false, toState = "/Часы работы"
-        intent: /Оставить отзыв || onlyThisState = false, toState = "/Отзыв о работе"
+        intent: /Часы работы || onlyThisState = false, toState = "/Часы"
+        intent: /Оставить отзыв || onlyThisState = false, toState = "/Оте"
         intent: /sys/ru/aimylogic/parting || onlyThisState = false, toState = "/Bye"
 
     state: Bye
