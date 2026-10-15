@@ -25,7 +25,7 @@ theme: /
         a: Простите, я вас не поняла. Не могли бы вы уточнить вопрос? || html = "Простите, я вас не поняла. Не могли бы вы уточнить вопрос?"
         go!: /Меню
 
-    state: Статус заказа || sessionResult = "Статус заказа", sessionResultColor = "#7E47D1"
+    state: Сттус зааза || sessionResult = "татус зказа", sessionResultColor = "#7E47D1"
         a: Скажите, пожалуйста, какой номер у вашего заказа? || htmlEnabled = false, html = "Скажите, пожалуйста, какой номер у вашего заказа?"
         intent: /Номер заказа || onlyThisState = false, toState = "/Номер сохранен"
         event: noMatch || onlyThisState = false, toState = "/Неправильный номер"
